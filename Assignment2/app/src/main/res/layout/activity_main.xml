@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/logoIb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dd_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:contentDescription="meal picture"/>
+
+    <TextView
+        android:id="@+id/foodNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoIb"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Hamburger" />
+
+    <EditText
+        android:id="@+id/addNewFoodEt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addFoodBt"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:hint="add new food"/>
+
+    <Button
+        android:id="@+id/addFoodBt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/decideBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="Add food"/>
+
+    <Button
+        android:id="@+id/decideBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decide!"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
