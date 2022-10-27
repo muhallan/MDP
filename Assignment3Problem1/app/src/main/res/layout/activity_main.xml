@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:id="@+id/tableTL"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:padding="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/androidVersionEt"
+            android:hint="@string/enter_android_version"
+            android:layout_span="2"
+            android:inputType="text"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/androidCodeEt"
+            android:layout_span="2"
+            android:hint="@string/enter_android_code_name"
+            android:inputType="text"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <Button
+            android:id="@+id/addBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="@string/add"/>
+    </TableRow>
+    <TableRow
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="@string/version"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="@string/code_name"
+            />
+    </TableRow>
+    <TableRow
+        android:padding="5dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android 9.0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pie"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android 8.0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oreo"/>
+    </TableRow>
+</TableLayout>
