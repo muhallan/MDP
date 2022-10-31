@@ -66,10 +66,11 @@ class MainActivity : AppCompatActivity() {
                     intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(email))
                     intent.putExtra(Intent.EXTRA_SUBJECT, "Forgot password")
                     intent.putExtra(Intent.EXTRA_TEXT, "Your password is: ${user.password}");
-                    if (intent.resolveActivity(packageManager) != null) {
-                        startActivity(intent)
-                    } else {
-                        Toast.makeText(this, "No app can send emails", Toast.LENGTH_LONG).show()
+                    try {
+                        startActivity(Intent.createChooser(intent, "Choose Email Client..."))
+                    }
+                    catch (e: Exception){
+                        Toast.makeText(this, "Error sending an email", Toast.LENGTH_LONG).show()
                     }
                     break
                 }
