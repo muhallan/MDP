@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Walmart</string>
+    <string name="food">Food</string>
+    <string name="beauty">Beauty</string>
+    <string name="clothing">Clothing</string>
+    <string name="electronics">Electronics</string>
+    <string name="shop_by_categories">Shop by Categories</string>
+    <string name="welcome_message">Welcome to Walmart</string>
+    <string name="product_image">Product image</string>
+    <string name="product_title_and_description">Product title and description</string>
+    <string name="price">Price:</string>
+    <string name="_35_44">$35.44</string>
+    <string name="color">Color:</string>
+    <string name="black">Black</string>
+    <string name="_45333242">45333242</string>
+    <string name="item_description">Item Description:</string>
+    <string name="long_item_description_with_details">Long item description with details</string>
+    <string name="walmart">Walmart #:</string>
+</resources>
