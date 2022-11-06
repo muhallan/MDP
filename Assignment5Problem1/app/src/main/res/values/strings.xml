@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="variables_in_kotlin">1. Which of these is not a valid keyword for declaring variables in Kotlin?</string>
+    <string name="val">val</string>
+    <string name="var">var</string>
+    <string name="let">let</string>
+    <string name="iteration_in_kotlin">2. Select the keywords that perform iteration in Kotlin.</string>
+    <string name="repeat">repeat</string>
+    <string name="loop">loop</string>
+    <string name="foreach">forEach</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+</resources>
