@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context="com.teamvan.fragments.CoreCompetencesFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:background="@color/selector_blue_pressed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:gravity="center"
+        android:text="@string/competencies_sample"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/competenciesRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

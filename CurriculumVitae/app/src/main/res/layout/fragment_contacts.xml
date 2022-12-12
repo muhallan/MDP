@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp"
+        tools:context="com.teamvan.fragments.ContactsFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:text="@string/_641_899_0909"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_call_black"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="email"
+            android:text="@string/muhwezi_gmail_com"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_mail_outline_black"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="map"
+            android:text="@string/miu_address"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_location_on_black"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:autoLink="web"
+            android:gravity="center_vertical"
+            android:text="@string/linkedin"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_fa_linkedin"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="web"
+            android:text="@string/facebook"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_fa_facebook"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="web"
+            android:text="@string/twiiter"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_fa_twitter"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:autoLink="web"
+            android:text="@string/github"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="24sp"
+            app:drawableStartCompat="@drawable/ic_fa_github"
+            app:drawableTint="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</ScrollView>

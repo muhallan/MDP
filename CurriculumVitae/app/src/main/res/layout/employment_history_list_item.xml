@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:contentPadding="8dp"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/companyImageIV"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/seesaw"
+                android:contentDescription="@string/seesaw" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jobTitleTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/software_engineer"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <TextView
+                    android:id="@+id/companyNameTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/seesaw_learning"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/datesTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/august_2020_october_2022"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/locationTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/san_francisco_california"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/taglineTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_tag_line"
+            android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            />
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_description"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="13sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold|italic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:text="@string/technologies_used"/>
+
+        <TextView
+            android:id="@+id/technologiesTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="12sp"
+            android:text="@string/technologies_sample"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AvatarImageBehavior">
+        <attr name="finalYPosition" format="dimension"/>
+        <attr name="startXPosition" format="dimension"/>
+        <attr name="startToolbarPosition" format="dimension"/>
+        <attr name="startHeight" format="dimension"/>
+        <attr name="finalHeight" format="dimension"/>
+    </declare-styleable>
+
+    <!-- API specific theme attributes 14+ -->
+    <declare-styleable name="AppThemeAttributes">
+        <attr name="selectableRectDrawable" format="reference"/>
+        <attr name="selectableRectDrawableInverse" format="reference"/>
+        <attr name="selectableRectDrawableColored" format="reference"/>
+        <attr name="selectableRoundedRectDrawable" format="reference"/>
+        <attr name="selectableRoundedRectDrawableInverse" format="reference"/>
+        <attr name="selectableRoundedRectDrawableColored" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiSpinnerSearch">
+        <attr name="hintText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+        <attr name="placeholder" format="string" />
+    </declare-styleable>
+</resources>

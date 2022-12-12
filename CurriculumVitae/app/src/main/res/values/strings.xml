@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+
+    <string name="openDrawer">Drawer Open</string>
+    <string name="closeDrawer">Drawer Closed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_create_an_account">Or Create an account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or_sign_in">Or Sign In</string>
+    <string name="design_patterns">Design Patterns</string>
+    <string name="details_patterns">Command, Template, Visitor, Iterator, Strategy, State, Mediator, Observer, Singleton, Composite, Factory, Decorator, Proxy, Builder, Façade, Abstract Factory</string>
+    <string name="miu">miu</string>
+    <string name="maharishi_international_university">Maharishi International University</string>
+    <string name="master_of_science_in_computer_science">Master of Science in Computer Science</string>
+    <string name="oct_2021_aug_2023">Oct 2021 - Aug 2023</string>
+    <string name="fairfield_iowa">Fairfield, Iowa</string>
+    <string name="seesaw">Seesaw</string>
+    <string name="software_engineer">Software Engineer</string>
+    <string name="seesaw_learning">Seesaw Learning</string>
+    <string name="august_2020_october_2022">August 2020 - October 2022</string>
+    <string name="san_francisco_california">San Francisco, California</string>
+    <string name="job_tag_line">Performed full stack software development using Python, Angular, and React.</string>
+    <string name="job_description">• Engaged in community initiatives such as TeenCode and Women-in-Tech to teach software programming concepts and share computer science knowledge with youth. • Held internal leadership roles such as Senate member and Cohort representative. • Contributed to internal Andela products to manage operations and support programs, such as Andela Resource Tracking, The Collective Andela Learning Map, and Bootcamp.</string>
+    <string name="technologies_used">Technologies used:</string>
+    <string name="technologies_sample">Java, Android, XML, PHP, AWS, Firebase, MySQL, SQLite</string>
+    <string name="allan_muhwezi">Allan Muhwezi</string>
+    <string name="professional_summary">Professional Summary</string>
+    <string name="summary_text">Expert application engineer with 5+ years of professional experience building full stack mobile, web, and desktop applications, contributing to the complete SDLC both individually and in teams. Excellent skills in analysis, problem solving, remote work, collaboration, and communication, and a proven history of implementing over 30 personal Android and Java desktop apps which have reached over 100k users. Able to learn new technologies quickly and effectively, with existing solid skills in languages and tools like Python, Angular, React, Flask, Java, AWS, Git, SQL, Jenkins, OAuth, CI/CD, Firebase, XML, and more.</string>
+    <string name="career_objective">Career Objective</string>
+    <string name="career_objective_text">To be a self-employed software and systems developer involved in groundbreaking innovations in technology on a world stage.</string>
+    <string name="hobbies_and_interests">Hobbies and interests</string>
+    <string name="programming">Programming</string>
+    <string name="reading_books_and_novels">Reading books and novels</string>
+    <string name="watching_movies_and_sports">Watching movies and sports</string>
+    <string name="listening_to_music">Listening to music</string>
+    <string name="reaching_out_to_people">Reaching out to people</string>
+    <string name="_641_899_0909">641 899 0909</string>
+    <string name="muhwezi_gmail_com">muhwezi@gmail.com</string>
+    <string name="miu_address">1000 N 4th St, Fairfield, IA, 52557</string>
+    <string name="linkedin">linkedin.com/in/allan-muhwezi/</string>
+    <string name="facebook">facebook.com/muhallan</string>
+    <string name="twiiter">twitter.com/MuhweziAllan</string>
+    <string name="github">github.com/muhallan</string>
+    <string name="competencies_sample"><![CDATA[Distributed Development • SDLC Methodologies • Design Patterns • Front & Back End Components Object-Oriented Programming • Microservices • Documentation • Troubleshooting]]></string>
+    <string name="logged_in_as_allan">Logged in as Allan</string>
+    <string name="agkika_supplies_2019">Agkika Supplies (2019)</string>
+    <string name="project_description">Java-based desktop software used to track purchases, sales, customers, inventory, and accounts of agricultural tools</string>
+    <string name="java_sqlite">Java, SQLite</string>
+    <string name="about_me">About Me</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="education">Education</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="logout">Logout</string>
+    <string name="share_cv">Share CV</string>
+
+</resources>

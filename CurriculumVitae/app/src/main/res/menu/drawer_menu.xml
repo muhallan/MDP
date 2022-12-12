@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/mn_about_me"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_fa_info_circle"
+            android:title="@string/about_me"/>
+        <item
+            android:id="@+id/mn_work"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_fa_briefcase"
+            android:title="@string/work_experience"/>
+        <item
+            android:id="@+id/mn_education"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_fa_book"
+            android:title="@string/education"/>
+        <item
+            android:id="@+id/mn_contact_me"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_fa_comments_o"
+            android:title="@string/contact_me"/>
+        <item
+            android:id="@+id/mn_logout"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_fa_sign_out"
+            android:title="@string/logout" />
+
+</menu>
