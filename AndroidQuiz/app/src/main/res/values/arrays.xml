@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions">
+        <item >Android is -</item>
+        <item >Which of the following is the first mobile phone released that ran the Android OS?</item>
+        <item >Which of the following virtual machine is used by the Android operating system?</item>
+        <item >Android is based on which of the following language?</item>
+        <item >APK stands for -</item>
+        <item >Which of the following converts Java byte code into Dalvik byte code?</item>
+        <item >What is an activity in android?</item>
+        <item >On which of the following, developers can test the application, during developing the android applications?</item>
+        <item >Which of the following kernel is used in Android?</item>
+        <item >Which of the following is the first callback method that is invoked by the system during an activity life-cycle?</item>
+        <item >Which of the following is not an activity lifecycle callback method?</item>
+        <item >What is the use of content provider in Android?</item>
+        <item >Which of the following is contained in the src folder?</item>
+        <item >Which of the following method is used to handle what happens after clicking a button?</item>
+        <item >Which of the following is the parent class of Activity?</item>
+        <item >Which of the following is the topmost layer of android architecture?</item>
+        <item >What is contained in manifest.xml?</item>
+        <item >Which of the following is not a state in the service lifecycle?</item>
+        <item >Which of the following is a dialog class in android?</item>
+        <item >Which of the following is the built-in database of Android?</item>
+    </string-array>
+</resources>
